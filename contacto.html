@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMIGURI | Contacto y Pedidos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-banner">
+        <p><i class="fa-solid fa-sparkles"></i> Consultas y encargos personalizados • Atención directa por WhatsApp <i class="fa-solid fa-sparkles"></i></p>
+    </div>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-yarn"></i></span>
+                <span class="logo-text">AMIGURI</span>
+            </a>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="amigurumis.html">Amigurumis</a>
+                <a href="flores.html">Flores</a>
+                <a href="prendas.html">Prendas</a>
+                <a href="contacto.html" class="active nav-cta">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero hero-contacto">
+        <div class="container">
+            <span class="badge">Hablemos</span>
+            <h1>Contacto y Pedidos</h1>
+            <p>Contanos qué diseño querés tejer y coordinemos los detalles de tu pedido.</p>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container contact-grid">
+            <div class="contact-card-info">
+                <span class="subtitle">Atención Directa</span>
+                <h2>Pedí tu Creación en AMIGURI</h2>
+                <p>Podés escribirnos para consultar disponibilidad, elegir colores o pedir un diseño especial en crochet.</p>
+
+                <ul class="contact-details">
+                    <li>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <span>+595 123456789</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <strong>Ubicación</strong>
+                            <span>Paraguay</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <strong>Horario de Atención</strong>
+                            <span>Lunes a Sábado de 08:00 a 19:00 hs</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <a href="https://wa.me/595123456789?text=Hola%20AMIGURI,%20quiero%20hacer%20un%20pedido%20personalizado" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i> Chatear por WhatsApp
+                </a>
+            </div>
+
+            <div class="contact-form-box">
+                <h3>Formulario de Consulta</h3>
+                <p class="form-note">Completá los campos con los detalles de lo que te gustaría encargar.</p>
+                <form class="crochet-form" action="#" method="get">
+                    <div class="form-group">
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej: Matías Velázquez" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="categoria">Categoría de Interés</label>
+                        <select id="categoria" name="categoria">
+                            <option value="amigurumis">Amigurumis</option>
+                            <option value="flores">Flores a Crochet</option>
+                            <option value="prendas">Prendas Tejidas</option>
+                            <option value="personalizado">Diseño Personalizado</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Detalles del Pedido (colores, tamaño, fecha)</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Contanos qué te gustaría mandar a tejer..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Enviar Solicitud <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="motivational-banner">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <blockquote>
+                    "Al igual que en el tejido y en el desarrollo de código, los grandes proyectos se construyen puntada a puntada, con paciencia, lógica y pasión por crear algo único."
+                </blockquote>
+                <span class="quote-author">— AMIGURI • Hecho a mano con el corazón</span>
+            </div>
+
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo footer-logo">
+                        <span class="logo-icon"><i class="fa-solid fa-yarn"></i></span>
+                        <span class="logo-text">AMIGURI</span>
+                    </a>
+                    <p>Emprendimiento de crochet especializado en amigurumis, flores eternas y prendas tejidas a mano.</p>
+                    <a href="https://wa.me/595123456789?text=Hola%20AMIGURI,%20quiero%20consultar%20por%20un%20pedido" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp: +595 123456789
+                    </a>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="amigurumis.html">Amigurumis</a></li>
+                        <li><a href="flores.html">Flores a Crochet</a></li>
+                        <li><a href="prendas.html">Prendas Tejidas</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contacto Directo</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> Paraguay</li>
+                        <li><i class="fa-solid fa-phone"></i> +595 123456789</li>
+                        <li><i class="fa-solid fa-clock"></i> Lun a Sáb: 08:00 - 19:00 hs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 <strong>AMIGURI</strong> — Todos los derechos reservados. Proyecto Final de Diseño Web.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/595123456789?text=Hola%20AMIGURI,%20quiero%20hacer%20una%20consulta" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="tooltip-wsp">WhatsApp</span>
+    </a>
+
+</body>
+</html>
